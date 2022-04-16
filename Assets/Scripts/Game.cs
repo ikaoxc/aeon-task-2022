@@ -41,6 +41,7 @@ public class Game : MonoBehaviour
     public void BackMenu()
     {
         GameStopped?.Invoke();
+        _isStarted = false;
     }
 
     public void StartGame()
